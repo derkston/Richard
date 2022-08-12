@@ -153,3 +153,27 @@ footer {
 	text-align: center;
 	margin: 15px 0px;
 }
+
+.product {
+	padding-top: 60px;
+}
+.product__list {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+}
+.product__list li {
+	margin-bottom: 160px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.product__list li:nth-child(even) .product__img{
+	order: -1;
+}
+.product__text {
+	flex-basis: 45%;
+	display: flex;
+	flex-direction: column;
+	gap: 30px;
+}
