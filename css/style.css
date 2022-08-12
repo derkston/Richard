@@ -221,3 +221,45 @@ footer {
 	text-align: center;
 	color: black;
 }
+
+.partners__items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.banner {
+	margin-top: 100px;
+	height: 500px;
+}
+.banner img {
+	width: 100%;
+	height: 100%;
+}
+
+.start {
+	background: linear-gradient(287.15deg, #450E4B 0%, #3C0C41 24.48%, rgba(207, 0, 99, 0) 100%), #CF0063;
+	background-image: url(../img/bg-start.svg);
+	background-size: cover;
+}
+.start__items {
+	padding: 150px 0px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 30px;
+}
+.buttons {
+	display: flex;
+	gap: 10px;
+}
+.buttons .button {
+	width: 190px;
+}
+.buttons .button:first-child {
+	background: #FC0A7E;
+}
+.buttons .button:last-child {
+	background: none;
+	border: 1px solid #B04BB3;
+}
