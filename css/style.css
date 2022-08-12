@@ -138,3 +138,18 @@ footer {
 	text-align: center;
 	color: white;
 }
+
+.master-sect-two {
+	min-height: 100vh;
+	background: rgba(27, 27, 27, 1);
+	padding-top: 100px;
+}
+
+.master-sect-two .master-sect__items {
+	flex-direction: column;
+}
+
+.master-sect-two h3 , .master-sect-two h2 {
+	text-align: center;
+	margin: 15px 0px;
+}
