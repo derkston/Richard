@@ -73,6 +73,7 @@ footer {
 	flex-wrap: wrap;
 	justify-content: space-between;
 	align-items: center;
+	gap: 30px 0px ;
 }
 .menu {
 	display: flex;
@@ -140,7 +141,6 @@ footer {
 }
 
 .master-sect-two {
-	min-height: 100vh;
 	background: rgba(27, 27, 27, 1);
 	padding-top: 100px;
 }
@@ -167,6 +167,7 @@ footer {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
+	gap: 30px;
 }
 .product__list li:nth-child(even) .product__img{
 	order: -1;
@@ -183,6 +184,8 @@ footer {
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-between;
+	align-items: center;
+	gap: 30px;
 }
 .info__item li {
 	flex-basis: 30%;
@@ -251,6 +254,7 @@ footer {
 }
 .buttons {
 	display: flex;
+	flex-wrap: wrap;
 	gap: 10px;
 }
 .buttons .button {
@@ -279,6 +283,8 @@ footer {
 }
 .updates__form {
 	display: flex;
+	flex-wrap: wrap;
+	gap: 30px 0px ;
 }
 .updates__form input {
 	width: 300px;
